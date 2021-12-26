@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Calculator</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h2>Calculator</h2>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <form id="calc">
+                    <input type="text" name="display" class="form-control bg-dark text-white btn-lg" readonly>
+
+                    <input type="button" name="" value="7" onclick="click7()"  class="btn btn-dark">
+                    <input type="button" name="" value="8" onclick="click8()"  class="btn btn-dark">
+                    <input type="button" name="" value="9" onclick="click9()"  class="btn btn-dark">
+                    <input type="button" name="" value="+" onclick="clickAdd()" class="btn btn-warning">
+                    
+                    <input type="button" name="" value="4" onclick="click4()" class="btn btn-dark">
+                    <input type="button" name="" value="5" onclick="click5()" class="btn btn-dark">
+                    <input type="button" name="" value="6" onclick="click6()" class="btn btn-dark">
+                    <input type="button" name="" value="-" onclick="clickSub()" class="btn btn-warning">
+                    
+                    <input type="button" name="" value="1" onclick="click1()" class="btn btn-dark">
+                    <input type="button" name="" value="2" onclick="click2()" class="btn btn-dark">
+                    <input type="button" name="" value="3" onclick="click3()" class="btn btn-dark">
+                    <input type="button" name="" value="*" onclick="clickMul()" class="btn btn-warning">
+                                    
+                    <input type="button" name="" value="0" onclick="click0()" class="btn btn-dark">
+                    <input type="button" name="" value="." onclick="clickDecimal()" class="btn btn-dark">
+                    <input type="button" name="" value="=" onclick="clickEqual()" class="btn btn-warning">
+                    <input type="button" name="" value="/" onclick="clickDiv()" class="btn btn-warning">
+                    <input type="button" name="" value="clear" onclick="clickClear()" class="btn btn-outline-danger clear">
+ 
+                </form>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
